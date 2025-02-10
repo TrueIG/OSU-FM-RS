@@ -1,0 +1,10 @@
+[package]
+name = "OSU-FM-RS"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+md-5 = "0.10.6"
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-macros = "2.4.0"
